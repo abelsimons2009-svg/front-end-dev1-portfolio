@@ -6,19 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<div class="wrapper">
-			<h1>playlist</h1>
-			<nav>
-				<a href="index.html">homepagina</a>
-				<a href="hobbies.html">hobbies</a>
-				<a href="projects.html">projects</a>
-				<a href="aboutme.html">about me</a>
-				<a href="playlist.html">playlist</a>
-				<a href="contact.html">Contact</a>
-			</nav>
-		</div>
-	</header>
+	<?php
+		require_once "header.php";
+	?>
 	<main>
 		<div class="wrapper">
 			<h2>Mijn favoriete 5 liedjes</h2>
@@ -32,10 +22,8 @@
 			</ul>
 		</div>
 	</main>
-	<footer>
-		<div class="wrapper">
-			<p>&copy; Joost, 2022-2026</p>
-		</div>
-	</footer>
 </body>
 </html>
+<?php 
+	require_once "footer.php";
+?>
